@@ -16,7 +16,7 @@ Citizen.CreateThread(function()
 		local playerPed = PlayerPedId()
 
 		if sitting then
-			exports['qb-core']:DrawText('<b style=color:rgb(255,0,0);>[E]</b> - Get Up', 'left')
+			exports['qb-core']:DrawText('<b style=color:rgb(255,0,0);>[E]</b> - Stoupnout', 'left')
 		end
 
 		if sitting and not IsPedUsingScenario(playerPed, currentScenario) then
