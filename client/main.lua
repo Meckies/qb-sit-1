@@ -46,7 +46,7 @@ Citizen.CreateThread(function()
             {
                 event = "qb-Sit:Sit",
                 icon = "fas fa-chair",
-                label = "Use",
+                label = "Sednout",
 				entity = entity
             },
         },
